@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".About"
+    android:gravity="center">
+    <RelativeLayout
+        style="@style/LayoutMatchWrap"
+        >
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/profile"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/AboutTextLayout"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="19sp"
+            android:textColor="@color/green"
+            android:text="@string/name"/>
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/AboutTextLayout"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/grey_light"
+            android:text="@string/email"/>
+    </RelativeLayout>
+</LinearLayout>

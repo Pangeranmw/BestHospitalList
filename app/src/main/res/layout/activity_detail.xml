@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutMatchParent"
+    android:padding="16dp"
+    tools:context=".Detail"
+    android:orientation="vertical">
+    <LinearLayout
+        style="@style/LayoutMatchWrap"
+        android:orientation="vertical">
+        <LinearLayout
+            style="@style/LayoutMatchWrap"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_item_hospital"
+                style="@style/ImageDetail"
+                tools:src="@drawable/rs_pondok_indah"/>
+            <TableLayout
+                style="@style/LayoutMatchParent"
+                android:layout_marginStart="10dp">
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tv_hospital_name"
+                        style="@style/LayoutMatchWrap.HospitalName"
+                        android:text="@string/hospital_name"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/tv_hospital_location"
+                        style="@style/LocationDetail"
+                        android:text="@string/location"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:id="@+id/tv_latitude"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:id="@+id/tv_hospital_telephone"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:id="@+id/tv_longitude"
+                        />
+                </TableRow>
+                <LinearLayout style="@style/LayoutMatchParent">
+                    <ImageView
+                        style="@style/LayoutIconDetail"
+                        android:src="@drawable/ic_time_detail" />
+                    <TextView
+                        android:id="@+id/tv_hospital_time"
+                        style="@style/LayoutMatchParent.TextIconDetail"
+                        android:text="@string/time"/>
+                </LinearLayout>
+            </TableLayout>
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LayoutMatchParent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                style="@style/LayoutMatchWrap.TextDetail"
+                android:text="@string/detail"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LayoutMatchParent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_hospital_detail"
+                style="@style/LayoutMatchWrap.TextDetail.Detail"
+                android:text="@string/detail"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LayoutMatchParent.ButtonLayout">
+            <Button
+                android:id="@+id/btn_hospital_maps"
+                style="@style/CTAButton"
+                android:text="View Maps"
+                android:drawableLeft="@drawable/ic_location_detail"
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LayoutMatchParent.ButtonLayout">
+            <Button
+                android:id="@+id/btn_hospital_call"
+                style="@style/CTAButton"
+                android:text="Call Now"
+                android:drawableLeft="@drawable/ic_telephone_detail" />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/LayoutMatchParent.ButtonLayout">
+            <Button
+                android:id="@+id/btn_share"
+                style="@style/CTAButton"
+                android:text="Share"
+                android:drawableLeft="@drawable/ic_share" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

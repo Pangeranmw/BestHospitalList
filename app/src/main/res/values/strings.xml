@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chopper</string>
+    <string name="hospital_name">Nama Rumah Sakit</string>
+    <string name="location">Lokasi</string>
+    <string name="telephone">Nomor Telepon</string>
+    <string name="time">Waktu Buka</string>
+    <string name="latitude">latitude</string>
+    <string name="longitude">longitude</string>
+    <string name="btn_detail">Detail</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="about">About</string>
+    <string name="name">Pangeran Muhammad Waliyullah</string>
+    <string name="email">pangeranwaliyullah@gmail.com</string>
+</resources>

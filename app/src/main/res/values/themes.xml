@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BestHospitalList" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_light</item>
+        <item name="colorSecondaryVariant">@color/green</item>
+        <item name="colorOnSecondary">@color/green_dark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="LayoutMatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="LayoutMatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="LayoutMatchWrap.HospitalItem">
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="HospitalImage">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">130dp</item>
+    </style>
+    <style name="LayoutMatchWrap.HospitalName">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="HospitalIcon">
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+    <style name="LayoutIcon">
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="TextIcon">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="LocationDetail">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLength">130</item>
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+    <style name="ButtonDetail">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/green_light</item>
+    </style>
+    <style name="ImageDetail">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">170dp</item>
+    </style>
+    <style name="LayoutMatchWrap.TextDetail">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="LayoutMatchWrap.TextDetail.Detail">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="LayoutIconDetail">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="LayoutMatchParent.TextIconDetail">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="LayoutMatchParent.ButtonLayout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="CTAButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AboutTextLayout">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+</resources>
