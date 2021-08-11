@@ -2,7 +2,7 @@
 Submission Dicoding Kelas Android Pemula, membuat aplikasi sederhana untuk menampilkan rumah sakit terbaik beserta detailnya menggunakan kotlin. 
 
 ## Tampilan Aplikasi. 
-1. Splash ScreenCancel changes.  
+1. Splash Screen.  
     <img width="200" src="https://user-images.githubusercontent.com/65103585/118408238-44888480-b6b7-11eb-96cd-9add089cc4c3.jpeg">. 
 
 2. Menu Awal (10 item Format List).  
